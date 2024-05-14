@@ -16,7 +16,7 @@ for usd_item in usd_items:
     item = {
         'عنوان' : translator.translate(usd_item['title'], src='en', dest='fa').text,
         'تأثیر' : translator.translate(usd_item['impact'], src='en', dest='fa').text,
-        'زمان'  : usd_item['date']
+        'زمـان'  : usd_item['date']
     }
     items.append(item)
 
